@@ -10,6 +10,6 @@ public class SubirArchivoTest {
 	public static void main(String[] args) throws IOException {
 		File pdfInput   = new File("C:/Memoria.docx");
 		Archivo archivo = new Archivo();
-		System.out.println(archivo.subirArhivoBox(pdfInput,"Memoria.docx","Eca6WyjcEVuTj2xSZVWhjt08RuBF1pWS"));
+		System.out.println(archivo.subirArhivoBox(pdfInput,"Osva2.docx","nKQjJqesZCFsJJT9pQY7mlbNtC1HKNTe"));
 	}
 }

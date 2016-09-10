@@ -6,7 +6,7 @@ import com.box.sdk.BoxItem;
 
 public class MostrarTodosElementos {
 	public static void main(String[] args) {
-		BoxAPIConnection api = new BoxAPIConnection("DHrTRAe19lH2UsM9lZoF1nW6RRdqDYj4");
+		BoxAPIConnection api = new BoxAPIConnection("tmOOyxAojemGPd46TqlRxbKlxwLLXnL2");
 		//Ruta del archivo
 		BoxFolder rootFolder = BoxFolder.getRootFolder(api);
 		

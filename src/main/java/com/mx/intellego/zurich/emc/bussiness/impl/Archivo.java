@@ -17,7 +17,14 @@ import com.box.sdk.Metadata;
 import com.mx.intellego.zurich.emc.bussiness.ArhivoBS;
 
 public class Archivo implements ArhivoBS{
-	File pdfInput = new File("C:/Hola.pdf");
+	
+	private static final String CLIENT_ID = "crfuha6k7q67lcp2n5yoz0xowdz61rb5";
+    private static final String CLIENT_SECRET = "imvqqYStB4qS2X3ZLHgWt0XoW528zbEc";
+    private static final String ENTERPRISE_ID = "";
+    private static final String PUBLIC_KEY_ID = "";
+    private static final String PRIVATE_KEY_FILE = "";
+    private static final String PRIVATE_KEY_PASSWORD = "";
+    private static final String APP_USER_NAME = "";
 	
 	public boolean subirArhivoBox(File archivo,String nombreArchivo,String token) throws IOException{
 		//Subir un archivo
@@ -42,7 +49,7 @@ public class Archivo implements ArhivoBS{
 		// TODO M�todo para crear un metadato a un archivo en box.
 		boolean resultado = false;
 		try {
-			BoxAPIConnection api = new BoxAPIConnection(token);
+			BoxAPIConnection api = new BoxAPIConnection(CLIENT_ID,CLIENT_SECRET);
 			//Ruta del archivo
 			BoxFolder rootFolder = BoxFolder.getRootFolder(api);
 			BoxFile file = new BoxFile(api, idArchivo);

@@ -7,7 +7,7 @@ public class PublicarLinkArchivoTest {
 	public static void main(String[] args) {
 		String link = "";
 		Archivo archivo = new Archivo();
-		link = archivo.linkVisualizarArchivoBox("94283868483", "Eca6WyjcEVuTj2xSZVWhjt08RuBF1pWS");
+		link = archivo.linkVisualizarArchivoBox("94450619050", "tmOOyxAojemGPd46TqlRxbKlxwLLXnL2");
 		System.out.println(link);
 	}
 }

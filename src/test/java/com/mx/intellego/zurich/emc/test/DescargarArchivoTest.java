@@ -6,6 +6,6 @@ public class DescargarArchivoTest {
 	
 	public static void main(String[] args) {
 		Archivo archivo = new Archivo();
-		System.out.println(archivo.linkDescargarArchivoBox("94283868483", "DHrTRAe19lH2UsM9lZoF1nW6RRdqDYj4"));
+		System.out.println(archivo.linkDescargarArchivoBox("94475623764", "rdd97U77TK0SeUpD0xZIwhwbBlPpbtXi"));
 	}
 }
